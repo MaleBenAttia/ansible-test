@@ -1,0 +1,19 @@
+vcenter_hostname: "192.168.99.44"
+vcenter_cluster: "Nouveau cluster"
+vcenter_datacenter: "Datacenter"
+vcenter_validate_certs: false
+vcenter_username: "administrator@vsphere.local"
+vcenter_password: "System@2024"
+vm_name: "test"
+vm_guestid: "centos64Guest"
+vm_disk_gb: 20
+vm_disk_type: "thin"
+datastore_type: "VMFS"
+vm_disk_datastore: "DATASTORE2 (2)"
+vm_hw_ram_mb: 20248
+vm_hw_cpu_n: 1
+vm_hw_scsi: "paravirtual"
+vm_net_name: "VM Network"
+vm_net_type: "dhcp"
+vcenter_destination_folder: "test"
+vm_state: "poweredoff"
